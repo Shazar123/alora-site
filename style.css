@@ -1,0 +1,92 @@
+/* style.css */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to bottom, #dff0fc, #ffffff);
+  color: #222;
+  text-align: center;
+}
+
+.logo {
+  width: 120px;
+  margin-top: 40px;
+  border-radius: 24px;
+}
+
+.hero {
+  padding: 20px;
+  background: linear-gradient(to bottom, #c2e0f9, #e8f5fe);
+  border-bottom: 1px solid #ccc;
+}
+
+h1 {
+  font-size: 2.8rem;
+  margin-bottom: 0.2rem;
+}
+
+.tagline {
+  font-size: 1.2rem;
+  color: #555;
+}
+
+section {
+  padding: 40px 20px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.about p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #444;
+}
+
+.features .feature-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.features .card {
+  background-color: #ffffff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  padding: 20px;
+  border-radius: 16px;
+  width: 260px;
+  font-size: 1rem;
+  font-weight: 500;
+  transition: transform 0.2s ease;
+}
+
+.features .card:hover {
+  transform: translateY(-4px);
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 15px;
+  background-color: #0077cc;
+  color: white;
+  padding: 12px 24px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: background 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #005fa3;
+}
+
+.contact a {
+  color: #0077cc;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+footer {
+  font-size: 0.9rem;
+  padding: 20px;
+  color: #777;
+}
